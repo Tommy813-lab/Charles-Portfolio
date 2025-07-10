@@ -5,55 +5,111 @@
   <title>Charles Bucher – Cloud Engineer Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    /* (Same styling as before, omitted here for brevity) */
-    /* Paste the full CSS from previous snappy template here */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9fafb;
+      color: #1f2937;
+      margin: 0;
+      padding: 2rem;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1, h2 {
+      color: #2563eb;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    header, section, footer {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 1rem;
+    }
+    .project-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    footer {
+      font-size: 0.9rem;
+      color: #6b7280;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
-  <main>
-    <header>
-      <h1>Charles Bucher</h1>
-      <p>Cloud Engineer | AWS Practitioner | Infrastructure & Support</p>
-    </header>
 
-    <section>
-      <h2>About Me</h2>
-      <p>Cloud engineer with hands-on experience designing and supporting scalable AWS infrastructure. Skilled in monitoring, automation, and security best practices.</p>
-    </section>
+<header>
+  <h1>Charles Bucher</h1>
+  <p>Cloud Engineer | AWS Practitioner | Infrastructure & Support</p>
+</header>
 
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <a class="project-title" href="https://github.com/Tommy813-lab/cloud-infra-monitoring-lab" target="_blank" rel="noopener noreferrer">
-            Cloud Infrastructure Monitoring Lab
-          </a>
-          <p>Designed and implemented AWS CloudWatch dashboards and alerts for proactive monitoring of EC2 instances and infrastructure health.</p>
-        </li>
-        <li>
-          <a class="project-title" href="https://github.com/Tommy813-lab/s3-cloudfront-secure-static-site" target="_blank" rel="noopener noreferrer">
-            Secure Static Website Deployment on S3 + CloudFront
-          </a>
-          <p>Built a static website hosted on AWS S3 with CloudFront CDN and HTTPS using SSL/TLS certificates to ensure security and performance.</p>
-        </li>
-        <li>
-          <a class="project-title" href="https://github.com/Tommy813-lab/ec2-webapp-with-s3-backend" target="_blank" rel="noopener noreferrer">
-            EC2 Web Application with S3 Backend
-          </a>
-          <p>Developed a full-stack web app deploying EC2 instances integrated with S3 storage backend for scalable and cost-effective solutions.</p>
-        </li>
-      </ul>
-    </section>
+<section>
+  <h2>About Me</h2>
+  <p>Cloud engineer with hands-on experience designing and supporting scalable AWS infrastructure. Skilled in monitoring, automation, and security best practices.</p>
+</section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:buchercharles2@gmail.com">buchercharles2@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/charlesbucher" target="_blank" rel="noopener noreferrer">linkedin.com/in/charlesbucher</a></p>
-    </section>
+<section>
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <a class="project-title" href="https://github.com/Tommy813-lab/cloud-infra-monitoring-lab" target="_blank" rel="noopener noreferrer">
+        Cloud Infrastructure Monitoring Lab
+      </a>
+      <p>Designed and implemented AWS CloudWatch dashboards and alerts for proactive monitoring of EC2 instances and infrastructure health.</p>
+    </li>
+    <li>
+      <a class="project-title" href="https://github.com/Tommy813-lab/s3-cloudfront-secure-static-site" target="_blank" rel="noopener noreferrer">
+        Secure Static Website Deployment on S3 + CloudFront
+      </a>
+      <p>Built a static website hosted on AWS S3 with CloudFront CDN and HTTPS using SSL/TLS certificates to ensure security and performance.</p>
+    </li>
+    <li>
+      <a class="project-title" href="https://github.com/Tommy813-lab/ec2-webapp-with-s3-backend" target="_blank" rel="noopener noreferrer">
+        EC2 Web Application with S3 Backend
+      </a>
+      <p>Developed a full-stack web app deploying EC2 instances integrated with S3 storage backend for scalable and cost-effective solutions.</p>
+    </li>
+  </ul>
+</section>
 
-    <footer>
-      <p>© 2025 Charles Bucher. All rights reserved.</p>
-    </footer>
-  </main>
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:buchercharles2@gmail.com">buchercharles2@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/charlesbucher" target="_blank" rel="noopener noreferrer">linkedin.com/in/charlesbucher</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Charles Bucher. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
+How to use:
+Open your index.html file in your repo folder.
+
+Replace its entire content with the above code.
+
+Save the file.
+
+Run these commands:
+
+bash
+Copy code
+git add index.html
+git commit -m "Update portfolio with clean professional content"
+git pull origin main --rebase
+git push origin main
