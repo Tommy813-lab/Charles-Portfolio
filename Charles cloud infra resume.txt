@@ -1,14 +1,15 @@
 🧾 CHARLES BUCHER — CLOUD/INFRASTRUCTURE SUPPORT TECHNICIAN
 📍 Pinellas Park, FL | 🌐 Remote-Ready | 📧 buchercharles2@gmail.com | ☎️ 813-770-5176
-🔗 GitHub: github.com/Tommy813-lab | 🔗 LinkedIn: linkedin.com/in/charlesbucher
+🔗 GitHub: github.com/Tommy813-lab | 🔗 LinkedIn: linkedin.com/in/charlesbucher | 🔗 Portfolio: Tommy813-lab.github.io/Charles-Portfolio
 
 🧭 PROFESSIONAL SUMMARY
-Reliable and self-taught Cloud Support Technician with hands-on AWS experience deploying and monitoring cloud infrastructure. Strong track record of solving real-world technical issues, both remotely and in customer-facing roles. Experienced in EC2 deployments, S3 configurations, IAM policies, and CloudWatch monitoring. Clear communicator with a passion for troubleshooting and continuous improvement.
+Reliable and self-driven Cloud Support Technician with hands-on AWS experience deploying and monitoring cloud infrastructure. Proven track record resolving real-world technical issues remotely and in customer-facing environments. Skilled in EC2 deployments, S3 configurations, IAM policies, and CloudWatch monitoring. Clear communicator passionate about troubleshooting and continuous growth.
 
-✅ AWS Projects | ✅ CLI & CloudWatch Monitoring | ✅ Remote Support Skills
-✅ GitHub Portfolio | ✅ VPN & Access Issues | ✅ Tier 1/Tier 2 Escalation Awareness
+✅ AWS Projects | ✅ CLI & CloudWatch Monitoring | ✅ Remote Support Expertise
+✅ GitHub Portfolio | ✅ VPN & Access Issue Resolution | ✅ Tier 1/Tier 2 Escalation Awareness
 
 💡 TECHNICAL SKILLS
+
 Category	Tools & Technologies
 Cloud	AWS (EC2, S3, IAM, CloudWatch, SNS, VPC)
 Monitoring	CloudWatch Dashboards, SNS Alerts, Health Checks
@@ -19,47 +20,54 @@ Support Ops	Ticketing Systems (Zendesk-style), Logs, MFA/VPN Access
 Soft Skills	Clear Communication, Patience, Problem Solving, Documentation
 
 🔧 PROJECT EXPERIENCE
-✅ Cloud Infra Monitoring Lab | GitHub Repo
-Deployed EC2 instance with CloudWatch agent to track performance metrics (CPU, disk, network).
 
-Created custom CloudWatch dashboards and alerts using SNS for proactive notifications.
+Cloud Infra Monitoring Lab | GitHub Repo
 
-Documented the setup and monitoring process to simulate real support documentation.
+Deployed EC2 instance with CloudWatch agent tracking CPU, disk, and network metrics
 
-✅ Proactive Monitoring with SNS & CloudWatch
-Built a real-time alert system tied to EC2 resource usage (CPU, memory).
+Created custom CloudWatch dashboards and SNS alerts for proactive monitoring
 
-Configured SNS topics for Tier 1 support alerts and escalation simulation.
+Documented setup and monitoring to mimic real-world support documentation
 
-Practiced log analysis and response scenarios (e.g., CPU spike triage, low disk warning).
+Proactive Monitoring with SNS & CloudWatch
 
-✅ Secure Static Website (S3 + CloudFront) | GitHub Repo
-Created and hosted a secure static website using Amazon S3 and CloudFront.
+Built real-time alerting system for EC2 resource usage (CPU, memory)
 
-Managed IAM policies and bucket permissions to prevent public access while enabling CloudFront delivery.
+Configured SNS topics for Tier 1 support alerts and escalation processes
 
-Troubleshot 403, 404 errors and solved S3 policy conflicts.
+Practiced log analysis and incident response scenarios (e.g., CPU spike triage, low disk warnings)
+
+Secure Static Website (S3 + CloudFront) | GitHub Repo
+
+Created and hosted secure static website with Amazon S3 and CloudFront CDN
+
+Managed IAM policies and bucket permissions preventing public access but enabling CDN delivery
+
+Troubleshot common errors like 403, 404 and resolved S3 policy conflicts
 
 💼 WORK HISTORY
+
 Delivery + Remote Issue Resolution Specialist
 Domino’s Pizza / Gig Platforms – Pinellas Park, FL (2015–2023)
 
-Handled 1000+ orders requiring real-time issue resolution, location fixes, and payment troubleshooting.
+Resolved 1000+ orders involving real-time location, payment, and technical troubleshooting
 
-Used POS systems, mobile apps, and GPS to resolve technical and customer support issues.
+Used POS systems, mobile apps, and GPS tools to support customers and logistics
 
-Managed customer complaints, connectivity failures, and fast rerouting like an on-call tech ninja.
+Managed complaints, connectivity failures, and rapid rerouting like an on-call tech ninja
 
-Demonstrated patience, clarity, and critical thinking under pressure.
+Maintained patience, clarity, and critical thinking under pressure
 
 📚 PROFESSIONAL DEVELOPMENT
+
 AWS Cloud Projects Portfolio: github.com/Tommy813-lab
 
-Learning Path: AWS Cloud Practitioner → AWS Solutions Architect (2025 Goal)
+Learning Path: AWS Cloud Practitioner → AWS Solutions Architect (Goal: 2025)
 
 Self-Study Platforms: AWS Skill Builder, YouTube (FreeCodeCamp, NetworkChuck), LinkedIn Learning
 
 🏅 SOFT SKILLS
+
 Calm under pressure
 
 Fast learner with hands-on drive
@@ -73,12 +81,10 @@ Positive, solution-focused communicator
 🎯 JOB TARGET
 Seeking full-time remote opportunities in:
 
-Cloud/Infrastructure Support (AWS, Azure, or hybrid environments)
+Cloud/Infrastructure Support (AWS, Azure, hybrid environments)
 
 Technical Support roles with cloud components
 
 Entry-level DevOps or CloudOps support teams
 
-IT helpdesk with cloud integration
-
-(Remote or Hybrid, Benefits)
+(Remote or Hybrid, with Benefits)
