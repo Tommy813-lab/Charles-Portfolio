@@ -5,96 +5,145 @@
   <title>Charles Bucher – Cloud Engineer Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+    /* Reset & base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f9fafb;
-      color: #1f2937;
-      margin: 0;
-      padding: 2rem;
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0; padding: 0;
+      background: #f0f4f8;
+      color: #1a202c;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
     }
-    h1, h2 {
-      color: #2563eb;
+    main {
+      background: #ffffff;
+      max-width: 900px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      padding: 2rem 3rem;
+      animation: fadeInUp 0.7s ease forwards;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      0% {opacity: 0; transform: translateY(20px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+
+    h1 {
+      color: #2c5282;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+    h2 {
+      color: #2b6cb0;
+      margin-top: 2rem;
+      border-bottom: 2px solid #bee3f8;
+      padding-bottom: 0.3rem;
+    }
+    p {
+      margin-top: 0.5rem;
     }
     a {
-      color: #2563eb;
+      color: #3182ce;
       text-decoration: none;
+      transition: color 0.3s ease;
     }
     a:hover {
+      color: #2c5282;
       text-decoration: underline;
-    }
-    header, section, footer {
-      margin-bottom: 2rem;
-      padding: 1.5rem;
-      background: white;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      border-radius: 8px;
     }
     ul {
       list-style-type: none;
       padding-left: 0;
+      margin-top: 1rem;
     }
     li {
+      background: #e9f2fb;
       margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: inset 0 0 6px #d1e7fc;
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+    li:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 15px rgba(49,130,206,0.3);
     }
     .project-title {
       font-weight: 700;
       font-size: 1.1rem;
+      margin-bottom: 0.3rem;
+      display: inline-block;
     }
     footer {
+      margin-top: 3rem;
+      color: #718096;
       font-size: 0.9rem;
-      color: #6b7280;
       text-align: center;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      main {
+        padding: 1.5rem 1.5rem;
+      }
     }
   </style>
 </head>
 <body>
+  <main>
+    <header>
+      <h1>Charles Bucher</h1>
+      <p>Cloud Engineer | AWS Practitioner | Infrastructure & Support</p>
+    </header>
 
-<header>
-  <h1>Charles Bucher</h1>
-  <p>Cloud Engineer | AWS Practitioner | Infrastructure & Support</p>
-</header>
+    <section>
+      <h2>About Me</h2>
+      <p>Dedicated cloud engineer with hands-on experience in AWS infrastructure, monitoring, and automation. Passionate about building scalable and secure cloud environments.</p>
+    </section>
 
-<section>
-  <h2>About Me</h2>
-  <p>Dedicated cloud engineer with hands-on experience in AWS infrastructure, monitoring, and automation. Passionate about building scalable and secure cloud environments.</p>
-</section>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a class="project-title" href="https://github.com/Tommy813-lab/cloud-infra-monitoring-lab" target="_blank" rel="noopener noreferrer">
+            Cloud Infrastructure Monitoring Lab
+          </a>
+          <p>Designed and implemented AWS CloudWatch dashboards and alerts for proactive monitoring of EC2 instances and infrastructure health.</p>
+        </li>
+        <li>
+          <a class="project-title" href="https://github.com/Tommy813-lab/s3-cloudfront-secure-static-site" target="_blank" rel="noopener noreferrer">
+            Secure Static Website Deployment on S3 + CloudFront
+          </a>
+          <p>Built a static website hosted on AWS S3 with CloudFront CDN and HTTPS using SSL/TLS certificates to ensure security and performance.</p>
+        </li>
+        <li>
+          <a class="project-title" href="https://github.com/Tommy813-lab/ec2-webapp-with-s3-backend" target="_blank" rel="noopener noreferrer">
+            EC2 Web Application with S3 Backend
+          </a>
+          <p>Developed a full-stack web app deploying EC2 instances integrated with S3 storage backend for scalable and cost-effective solutions.</p>
+        </li>
+      </ul>
+    </section>
 
-<section>
-  <h2>Projects</h2>
-  <ul>
-    <li>
-      <a class="project-title" href="https://github.com/Tommy813-lab/cloud-infra-monitoring-lab" target="_blank" rel="noopener noreferrer">
-        Cloud Infrastructure Monitoring Lab
-      </a>
-      <p>Designed and implemented AWS CloudWatch dashboards and alerts for proactive monitoring of EC2 instances and infrastructure health.</p>
-    </li>
-    <li>
-      <a class="project-title" href="https://github.com/Tommy813-lab/s3-cloudfront-secure-static-site" target="_blank" rel="noopener noreferrer">
-        Secure Static Website Deployment on S3 + CloudFront
-      </a>
-      <p>Built a static website hosted on AWS S3 with CloudFront CDN and HTTPS using SSL/TLS certificates to ensure security and performance.</p>
-    </li>
-    <li>
-      <a class="project-title" href="https://github.com/Tommy813-lab/ec2-webapp-with-s3-backend" target="_blank" rel="noopener noreferrer">
-        EC2 Web Application with S3 Backend
-      </a>
-      <p>Developed a full-stack web app deploying EC2 instances integrated with S3 storage backend for scalable and cost-effective solutions.</p>
-    </li>
-  </ul>
-</section>
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:buchercharles2@gmail.com">buchercharles2@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/charlesbucher" target="_blank" rel="noopener noreferrer">linkedin.com/in/charlesbucher</a></p>
+    </section>
 
-<section>
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:buchercharles2@gmail.com">buchercharles2@gmail.com</a></p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/charlesbucher" target="_blank" rel="noopener noreferrer">linkedin.com/in/charlesbucher</a></p>
-</section>
-
-<footer>
-  <p>© 2025 Charles Bucher. All rights reserved.</p>
-</footer>
-
+    <footer>
+      <p>© 2025 Charles Bucher. All rights reserved.</p>
+    </footer>
+  </main>
 </body>
 </html>
