@@ -1,54 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Charles Bucher – Cloud Engineer Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Charles Bucher – Cloud Engineer Portfolio</title>
+<style>
+  /* Reset and base */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    color: #1e293b;
+    margin: 0;
+    padding: 2rem;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+  header, section, footer {
+    background: white;
+    padding: 2rem 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  }
+  h1, h2 {
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+    border-bottom: 3px solid #bfdbfe;
+    padding-bottom: 0.3rem;
+  }
+  p, li {
+    font-size: 1.05rem;
+  }
+  a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  a:hover {
+    color: #1e40af;
+    text-decoration: underline;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+  li {
+    background: #e0f2fe;
+    margin-bottom: 1rem;
+    padding: 1rem 1.2rem;
+    border-radius: 25px;
+    font-weight: 600;
+    color: #1e40af;
+    display: inline-block;
+  }
+  .project-list li {
+    background: #f3f4f6;
+    color: #334155;
+    font-weight: normal;
+    display: block;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: inset 0 0 6px #cbd5e1;
+  }
+  .project-title {
+    font-weight: 700;
+    font-size: 1.15rem;
+    margin-bottom: 0.3rem;
+    display: inline-block;
+  }
+  .resume-btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    font-weight: 700;
+    padding: 12px 26px;
+    border-radius: 30px;
+    margin-top: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .resume-btn:hover {
+    background: #1e40af;
+  }
+  footer {
+    font-size: 0.9rem;
+    color: #64748b;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f9fafb;
-      color: #1f2937;
-      margin: 0;
-      padding: 2rem;
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    h1, h2 {
-      color: #2563eb;
-    }
-    a {
-      color: #2563eb;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+      padding: 1rem;
     }
     header, section, footer {
-      margin-bottom: 2rem;
-      padding: 1.5rem;
-      background: white;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      border-radius: 8px;
+      padding: 1.5rem 1.5rem;
     }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
+    h1 {
+      font-size: 2rem;
     }
-    li {
-      margin-bottom: 1rem;
+    h2 {
+      font-size: 1.4rem;
     }
-    .project-title {
-      font-weight: 700;
-      font-size: 1.1rem;
-    }
-    footer {
-      font-size: 0.9rem;
-      color: #6b7280;
-      text-align: center;
-    }
-  </style>
+  }
+</style>
 </head>
 <body>
 
@@ -59,31 +125,46 @@
 
 <section>
   <h2>About Me</h2>
-  <p>Cloud engineer with hands-on experience designing and supporting scalable AWS infrastructure. Skilled in monitoring, automation, and security best practices.</p>
+  <p>
+    I’m a dedicated cloud engineer with practical experience designing, deploying, and maintaining scalable AWS environments. Passionate about infrastructure automation, security best practices, and continuous learning to deliver reliable and efficient cloud solutions.
+  </p>
+  <ul>
+    <li>AWS EC2 & S3</li>
+    <li>CloudWatch Monitoring & Alerts</li>
+    <li>Infrastructure Automation</li>
+    <li>Security & IAM</li>
+    <li>Linux & Scripting</li>
+    <li>Git & CI/CD Basics</li>
+  </ul>
 </section>
 
 <section>
   <h2>Projects</h2>
-  <ul>
+  <ul class="project-list">
     <li>
       <a class="project-title" href="https://github.com/Tommy813-lab/cloud-infra-monitoring-lab" target="_blank" rel="noopener noreferrer">
         Cloud Infrastructure Monitoring Lab
       </a>
-      <p>Designed and implemented AWS CloudWatch dashboards and alerts for proactive monitoring of EC2 instances and infrastructure health.</p>
+      <p>Built and configured CloudWatch dashboards and alarms to monitor EC2 instances and simulate real-world infrastructure support scenarios.</p>
     </li>
     <li>
       <a class="project-title" href="https://github.com/Tommy813-lab/s3-cloudfront-secure-static-site" target="_blank" rel="noopener noreferrer">
-        Secure Static Website Deployment on S3 + CloudFront
+        Secure Static Website on S3 + CloudFront
       </a>
-      <p>Built a static website hosted on AWS S3 with CloudFront CDN and HTTPS using SSL/TLS certificates to ensure security and performance.</p>
+      <p>Deployed a static website on AWS S3, delivered securely via CloudFront with HTTPS, demonstrating best practices for performance and security.</p>
     </li>
     <li>
       <a class="project-title" href="https://github.com/Tommy813-lab/ec2-webapp-with-s3-backend" target="_blank" rel="noopener noreferrer">
         EC2 Web Application with S3 Backend
       </a>
-      <p>Developed a full-stack web app deploying EC2 instances integrated with S3 storage backend for scalable and cost-effective solutions.</p>
+      <p>Developed a web app hosted on EC2 integrated with S3 storage backend, emphasizing scalability and cost-effective design.</p>
     </li>
   </ul>
+</section>
+
+<section>
+  <h2>Resume</h2>
+  <a class="resume-btn" href="Charles_Bucher_Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
 </section>
 
 <section>
@@ -98,18 +179,3 @@
 
 </body>
 </html>
-How to use:
-Open your index.html file in your repo folder.
-
-Replace its entire content with the above code.
-
-Save the file.
-
-Run these commands:
-
-bash
-Copy code
-git add index.html
-git commit -m "Update portfolio with clean professional content"
-git pull origin main --rebase
-git push origin main
