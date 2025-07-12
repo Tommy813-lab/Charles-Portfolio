@@ -1,98 +1,88 @@
+<!-- index.html | Charles Bucher Portfolio Level 9 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Charles Bucher - Cloud Support Engineer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charles Bucher | Cloud Support Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      line-height: 1.6;
-      color: #222;
-      background-color: #f9f9f9;
+      font-family: 'Inter', sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      margin: 0;
+      padding: 0;
     }
-    h1, h2, h3 {
-      color: #005a9c;
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.25rem;
+    }
+    p.title {
+      font-size: 1.25rem;
+      color: #8b949e;
+    }
+    .contact {
+      margin: 1rem 0;
     }
     a {
-      color: #007acc;
+      color: #58a6ff;
       text-decoration: none;
     }
-    a:hover {
-      text-decoration: underline;
+    .projects {
+      margin-top: 2rem;
     }
-    .contact-info {
-      margin-bottom: 2rem;
+    .project {
+      margin-bottom: 1.5rem;
     }
-    .skills, .certifications {
-      list-style: none;
-      padding-left: 0;
+    .project h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.25rem;
     }
-    .skills li, .certifications li {
-      background-color: #e1f0ff;
-      margin: 0.25rem 0;
-      padding: 0.5rem;
-      border-radius: 4px;
-      display: inline-block;
-      margin-right: 0.5rem;
-      font-weight: bold;
-      color: #005a9c;
-    }
-    section {
-      margin-bottom: 2rem;
+    .project p {
+      color: #8b949e;
     }
   </style>
 </head>
 <body>
-  <header>
+  <div class="container">
     <h1>Charles Bucher</h1>
-    <p><strong>Cloud Support Engineer | AWS Practitioner | Linux & Terraform Enthusiast</strong></p>
-    <div class="contact-info">
-      <p>Email: <a href="mailto:charlesthomasb@proton.me">charlesthomasb@proton.me</a></p>
-      <p>GitHub: <a href="https://github.com/tommy813-lab" target="_blank" rel="noopener">tommy813-lab</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-26598728b" target="_blank" rel="noopener">charles-bucher</a></p>
+    <p class="title">Cloud Support Engineer | AWS | Terraform | Linux</p>
+
+    <div class="contact">
+      📧 <a href="mailto:quietopscb@gmail.com">quietopscb@gmail.com</a><br />
+      💻 <a href="https://github.com/tommy813-lab" target="_blank">GitHub: @tommy813-lab</a><br />
+      🔗 <a href="https://www.linkedin.com/in/charles-bucher-26598728b" target="_blank">LinkedIn</a>
     </div>
-  </header>
 
-  <main>
-    <section>
-      <h2>Projects</h2>
-      <h3>AWS Monitoring Lab</h3>
-      <p>Deployed and managed EC2 instances, configured CloudWatch alarms, and implemented S3 lifecycle policies to ensure high availability and cost efficiency. Created IAM roles with least-privilege principles and tested incident response with simulated support tickets.</p>
+    <div class="projects">
+      <h2>Featured Projects</h2>
 
-      <h3>Terraform Auto-Provisioner</h3>
-      <p>Developed reusable Terraform modules to automate provisioning of EC2, S3, and IAM resources. Automated state handling and environment-specific configurations, cutting deployment time by 40% and reducing errors.</p>
+      <div class="project">
+        <h2>AWS Monitoring Lab</h2>
+        <p>EC2, S3, CloudWatch Alarms, IAM Roles — deployed & monitored cloud infrastructure with alerting and security best practices.</p>
+        <a href="https://github.com/tommy813-lab/Proactive-monitoring-with-cloudwatch-sns" target="_blank">View Repo</a>
+      </div>
 
-      <h3>Linux Support Toolkit</h3>
-      <p>Built Bash scripts for log parsing, disk usage monitoring, and automated service restarts. Used in mock support scenarios to quickly diagnose and resolve Linux system issues.</p>
-    </section>
+      <div class="project">
+        <h2>Infrastructure-as-Code Setup</h2>
+        <p>Used Terraform to automate AWS resource creation with reusable modules and secure configurations.</p>
+        <a href="https://github.com/tommy813-lab" target="_blank">More Projects</a>
+      </div>
 
-    <section>
-      <h2>About Me</h2>
-      <p>Self-motivated and uptime-focused, I approach cloud support like a Tier 1/2 engineer—solving problems fast, automating tasks, and maintaining AWS and Linux environments. My goal is to join a forward-thinking team where I can leverage my skills and grow into cloud engineering.</p>
-    </section>
+      <div class="project">
+        <h2>Felon2Cloud Short (Animated Series)</h2>
+        <p>Scripted short showing transformation journey — from incarceration to cloud engineering. Built with Blender, Godot, and Python.</p>
+        <a href="https://github.com/tommy813-lab/Felon2Cloud" target="_blank">Behind the Scenes</a>
+      </div>
 
-    <section>
-      <h2>Skills</h2>
-      <ul class="skills">
-        <li>AWS (EC2, S3, IAM, CloudWatch)</li>
-        <li>Terraform</li>
-        <li>Bash</li>
-        <li>Linux CLI</li>
-        <li>Git</li>
-        <li>Ticketing Systems (Jira, Zendesk)</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Certifications</h2>
-      <ul class="certifications">
-        <li>AWS Certified Cloud Practitioner (In Progress)</li>
-      </ul>
-    </section>
-  </main>
+    </div>
+  </div>
 </body>
 </html>
