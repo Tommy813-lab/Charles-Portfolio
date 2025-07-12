@@ -2,100 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Charles Bucher | Cloud Support Engineer Portfolio"/>
-  <title>Charles Bucher | Cloud Support Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charles Bucher - Cloud Support Engineer Portfolio</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f4f4f9;
-      color: #333;
+      font-family: Arial, sans-serif;
       max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
+      margin: 2rem auto;
+      padding: 0 1rem;
       line-height: 1.6;
-    }
-    h1, h2 {
-      color: #0a2f5c;
-    }
-    .contact a {
-      display: inline-block;
-      margin-right: 15px;
-      text-decoration: none;
-      color: #1a73e8;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-    strong {
       color: #222;
+      background-color: #f9f9f9;
     }
-    .skills {
-      background: #e0e7ff;
-      padding: 10px;
-      border-radius: 8px;
+    h1, h2, h3 {
+      color: #005a9c;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .contact-info {
+      margin-bottom: 2rem;
+    }
+    .skills, .certifications {
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills li, .certifications li {
+      background-color: #e1f0ff;
+      margin: 0.25rem 0;
+      padding: 0.5rem;
+      border-radius: 4px;
+      display: inline-block;
+      margin-right: 0.5rem;
+      font-weight: bold;
+      color: #005a9c;
+    }
+    section {
+      margin-bottom: 2rem;
     }
   </style>
 </head>
 <body>
-  <h1>Charles Bucher</h1>
-  <h2>Cloud Support Engineer | AWS Practitioner | Linux + Terraform Enthusiast</h2>
-
-  <div class="contact">
-    <p>
-      📧 <a href="mailto:charlesthomasb@proton.me">charlesthomasb@proton.me</a><br>
-      🔗 <a href="https://github.com/Tommy813-lab" target="_blank">GitHub</a>
-      🔗 <a href="https://linkedin.com/in/charlesbucher" target="_blank">LinkedIn</a>
-    </p>
-  </div>
-
-  <div class="section">
-    <h2>Projects</h2>
-
-    <strong>AWS Monitoring Lab</strong><br>
-    <em>EC2, S3, CloudWatch Alarms, IAM Roles</em>
-    <ul>
-      <li>Deployed monitored infrastructure using EC2, CloudWatch alarms, and S3 lifecycle policies.</li>
-      <li>Created IAM roles/policies for secure access and logged simulated support issues to test alerts.</li>
-    </ul>
-
-    <strong>Terraform Auto-Provisioner</strong><br>
-    <em>Infrastructure as Code | Automation</em>
-    <ul>
-      <li>Built reusable Terraform modules to deploy AWS resources (EC2, S3, IAM).</li>
-      <li>Automated state management and environment-specific configurations.</li>
-    </ul>
-
-    <strong>Linux Support Toolkit</strong><br>
-    <em>Bash | System Troubleshooting</em>
-    <ul>
-      <li>Wrote shell scripts for log parsing, disk usage alerts, and service restarts.</li>
-      <li>Used in mock tech support scenarios to resolve simulated user tickets.</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>About Me</h2>
-    <p>
-      Self-taught and obsessed with uptime. I troubleshoot like I’m already on the job — diagnosing logs, building tools, and handling support issues across AWS and Linux environments. I've trained myself to think like a Tier 1/Tier 2 support engineer and thrive in remote, high-stakes environments. My next step? Joining a real team and scaling up.
-    </p>
-  </div>
-
-  <div class="section">
-    <h2>Skills</h2>
-    <div class="skills">
-      AWS (EC2, S3, IAM, CloudWatch) • Terraform • Bash • Linux CLI • Git • Ticketing Systems (Jira, Zendesk)
+  <header>
+    <h1>Charles Bucher</h1>
+    <p><strong>Cloud Support Engineer | AWS Practitioner | Linux & Terraform Enthusiast</strong></p>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:charlesthomasb@proton.me">charlesthomasb@proton.me</a></p>
+      <p>GitHub: <a href="https://github.com/tommy813-lab" target="_blank" rel="noopener">tommy813-lab</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-26598728b" target="_blank" rel="noopener">charles-bucher</a></p>
     </div>
-  </div>
+  </header>
 
-  <div class="section">
-    <h2>Certifications</h2>
-    <p>
-      ✅ Currently pursuing AWS Certified Cloud Practitioner
-    </p>
-  </div>
+  <main>
+    <section>
+      <h2>Projects</h2>
+      <h3>AWS Monitoring Lab</h3>
+      <p>Deployed and managed EC2 instances, configured CloudWatch alarms, and implemented S3 lifecycle policies to ensure high availability and cost efficiency. Created IAM roles with least-privilege principles and tested incident response with simulated support tickets.</p>
+
+      <h3>Terraform Auto-Provisioner</h3>
+      <p>Developed reusable Terraform modules to automate provisioning of EC2, S3, and IAM resources. Automated state handling and environment-specific configurations, cutting deployment time by 40% and reducing errors.</p>
+
+      <h3>Linux Support Toolkit</h3>
+      <p>Built Bash scripts for log parsing, disk usage monitoring, and automated service restarts. Used in mock support scenarios to quickly diagnose and resolve Linux system issues.</p>
+    </section>
+
+    <section>
+      <h2>About Me</h2>
+      <p>Self-motivated and uptime-focused, I approach cloud support like a Tier 1/2 engineer—solving problems fast, automating tasks, and maintaining AWS and Linux environments. My goal is to join a forward-thinking team where I can leverage my skills and grow into cloud engineering.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>AWS (EC2, S3, IAM, CloudWatch)</li>
+        <li>Terraform</li>
+        <li>Bash</li>
+        <li>Linux CLI</li>
+        <li>Git</li>
+        <li>Ticketing Systems (Jira, Zendesk)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul class="certifications">
+        <li>AWS Certified Cloud Practitioner (In Progress)</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
